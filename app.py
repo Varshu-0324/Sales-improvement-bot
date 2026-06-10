@@ -6,10 +6,10 @@ from datetime import datetime
 from pymongo import MongoClient
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyCrrsRX-0vHtLIa_LO6XeDMwUEhMptP5rg")  # Replace with your actual API key
+genai.configure(api_key="Axxxxxxxxxxxxxxxxxxxxxxxxx")  # Replace with your actual API key
 
 # MongoDB setup
-client = MongoClient("mongodb+srv://varshini:<db_password>@cluster0.lwtnhbk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 db = client["sales_chatbot"]
 sessions = db["sales_sessions"]
 
